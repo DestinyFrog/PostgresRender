@@ -11,5 +11,8 @@
   "dependencies": {
     "@types/pg": "^8.11.6",
     "pg": "^8.11.5"
+  },
+  "scripts": {
+    "start": "yarn tsc && node dist/index.js"
   }
 }
